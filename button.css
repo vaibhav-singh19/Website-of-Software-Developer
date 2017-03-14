@@ -1,0 +1,52 @@
+.button{
+position: relative;;
+}
+
+
+.button figure{
+  display: none;
+  position: absolute;
+  top: 1em;
+  left: 9em;
+  padding: 0;
+  margin: 0;
+  border: 5px groove #fd0;
+  border-radius: 1em;
+}
+
+.button picture{
+  
+  border-radius: 0.8em;
+  max-width: auto;
+  height: auto;
+}
+
+.button img{
+  display: block;
+  border-radius: 0.8em;
+  max-width: 100%;
+  height: auto;
+}
+
+button H1{
+  display: block;
+  border-radius: 0.8em;
+  width: auto;
+  height: auto;
+}
+button abbr{
+  display: run-in;
+  border-radius: 0.8em;
+  width: auto;
+  height: auto;
+}
+
+.button:focus figure,
+.button:hover figure{
+  display: inline-block;
+}
+
+.button:focus p,
+.button:hover p{
+
+}
